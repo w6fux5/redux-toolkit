@@ -5,8 +5,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export const aliases = {
-  '@': resolve(__dirname, './src'),
-  '@u': resolve(__dirname, './src/utils'),
+  '@': resolve(__dirname, './src/'),
+  '@s': resolve(__dirname, './src/store/'),
 };
 
 // https://vitejs.dev/config/
