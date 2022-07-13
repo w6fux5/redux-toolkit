@@ -11,10 +11,15 @@
     },
     "ecmaVersion": "latest",
     "sourceType": "module"
-
-    
-
   },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [["@", "./src/"]]
+      }
+    }
+  },
+
   "plugins": ["prettier", "json"],
   "rules": {
     "json/*": ["error", "allowComments"],
